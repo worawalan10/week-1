@@ -31,4 +31,4 @@ Answer: ถ้าไม่มีการกำหนดตัวแปร flag 
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: ช้าลง เพราะถ้าไม่ใช้ flag จะมีการวนลูปให้ครบทุกตัว

@@ -20,7 +20,7 @@ namespace Lab1_1
             // process
             for (int j = 0; j != input.Length - 1; j++)
             {
-                //flag = false;
+                
                 for (int i = 0; i != input.Length - 1; i++)
                 {
                     if (input[i] > input[i + 1])
@@ -28,7 +28,7 @@ namespace Lab1_1
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
-                       // flag = true;
+                    
                     }
                 }
             }
